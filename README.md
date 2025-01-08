@@ -1,3 +1,3 @@
 # cpu-scheduling-algos
 
-CPU Scheduling Algorithms in Operating Systems
+CPU Scheduling Algorithms Visualized in Operating Systems
