@@ -29,14 +29,14 @@
     </div>
     <div class="flex mb-4">
       <h1>LJF&nbsp;-&nbsp;</h1>
-      <a href="/ljf" class="text-blue-500 font-mono">/ljf</a>
+      <a href="/non-prempt" class="text-blue-500 font-mono">/ljf</a>
     </div>
     <div class="flex mb-4">
-      <h1>HRRRN&nbsp;-&nbsp;</h1>
-      <a href="/hrrrn" class="text-blue-500 font-mono">/hrrrn</a>
+      <h1>HRRN&nbsp;-&nbsp;</h1>
+      <a href="/non-prempt" class="text-blue-500 font-mono">/hrrrn</a>
     </div>
     <div class="flex mb-4">
       <h1>Multi-level Queue&nbsp;-&nbsp;</h1>
-      <a href="/hrrrn" class="text-blue-500 font-mono">/multiq</a>
+      <a href="/non-prempt" class="text-blue-500 font-mono">/multiq</a>
     </div>
   </main>
