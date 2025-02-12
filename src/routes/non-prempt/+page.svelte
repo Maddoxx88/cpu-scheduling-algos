@@ -261,7 +261,7 @@
               <td class="border p-2">
                 <select 
                   bind:value={process.queue}
-                  class="p-1 border rounded"
+                  class="w-1/2 p-1 border rounded"
                 >
                   <option value="system">System</option>
                   <option value="interactive">Interactive</option>
