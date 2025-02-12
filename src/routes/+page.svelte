@@ -25,7 +25,7 @@
     </div>
     <div class="flex mb-4">
       <h1>SJF&nbsp;-&nbsp;</h1>
-      <a href="/sjf" class="text-blue-500 font-mono">/sjf</a>
+      <a href="/sjf" class="text-blue-500 font-mono">/sjf</a> 
     </div>
     <div class="flex mb-4">
       <h1>LJF&nbsp;-&nbsp;</h1>
