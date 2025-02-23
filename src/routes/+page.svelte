@@ -1,6 +1,6 @@
  
   <main class="p-4">
-    <h1 class="text-2xl font-bold mb-2">Pre-emptive Algos</h1>
+    <h1 class="text-2xl font-bold mb-2 animate-fade-in">Pre-emptive Algos</h1>
     <div class="flex mb-4">
       <h1>SRTF&nbsp;-&nbsp;</h1>
       <a href="/preempt" class="text-blue-500 font-mono">/srtf</a>
@@ -18,7 +18,7 @@
       <a href="/preempt" class="text-blue-500 font-mono">/priority-based</a>
     </div>
 
-    <h1 class="text-2xl font-bold mb-2">Non pre-emptive Algos</h1>
+    <h1 class="text-2xl font-bold mb-2">Non Pre-emptive Algos</h1>
     <div class="flex mb-4">
       <h1>FCFS&nbsp;-&nbsp;</h1>
       <a href="/non-prempt" class="text-blue-500 font-mono">/fcfs</a>
