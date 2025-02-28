@@ -1,4 +1,4 @@
-## CPU Scheduling Algos
+## CPU Scheduling Algorithms
 
 If you're seeing this, you've probably already done this step. Congrats!
 
