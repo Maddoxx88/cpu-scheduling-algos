@@ -1,42 +1,41 @@
- 
-  <main class="p-4">
-    <h1 class="text-2xl font-bold mb-2 animate-fade-in">Pre-emptive Algos</h1>
-    <div class="flex mb-4">
-      <h1>SRTF&nbsp;-&nbsp;</h1>
-      <a href="/preempt" class="text-blue-500 font-mono">/srtf</a>
-    </div>
-    <div class="flex mb-4">
-      <h1>LRTF&nbsp;-&nbsp;</h1>
-      <a href="/preempt" class="text-blue-500 font-mono">/lrtf</a>
-    </div>
-    <div class="flex mb-4">
-      <h1>Round Robin&nbsp;-&nbsp;</h1>
-      <a href="/preempt" class="text-blue-500 font-mono">/rr</a>
-    </div>
-    <div class="flex mb-8">
-      <h1>Priority based&nbsp;-&nbsp;</h1>
-      <a href="/preempt" class="text-blue-500 font-mono">/priority-based</a>
-    </div>
+<script>
+    // Sample data for dynamic cards
+    const cards = [
+      { id: 1, title: "Emergency Room", description: "This is the first card", imageUrl: "https://via.placeholder.com/300x200" },
+      { id: 2, title: "Earth Satellite Communication", description: "This is the second card", imageUrl: "https://via.placeholder.com/300x200" },
+      { id: 3, title: "Space Mission Control", description: "This is the third card", imageUrl: "https://via.placeholder.com/300x200" },
+      { id: 4, title: "Card 4", description: "This is the fourth card", imageUrl: "https://via.placeholder.com/300x200" }
+    ];
+  
+    // Handle card click
+    function handleCardClick(id) {
+      alert(`Card ${id} clicked`);
+    }
+  </script>
+  
+  <main class="max-w-6xl mx-auto p-6">
 
-    <h1 class="text-2xl font-bold mb-2">Non Pre-emptive Algos</h1>
-    <div class="flex mb-4">
-      <h1>FCFS&nbsp;-&nbsp;</h1>
-      <a href="/non-prempt" class="text-blue-500 font-mono">/fcfs</a>
-    </div>
-    <div class="flex mb-4">
-      <h1>SJF&nbsp;-&nbsp;</h1>
-      <a href="/non-prempt" class="text-blue-500 font-mono">/sjf</a> 
-    </div>
-    <div class="flex mb-4">
-      <h1>LJF&nbsp;-&nbsp;</h1>
-      <a href="/non-prempt" class="text-blue-500 font-mono">/ljf</a>
-    </div>
-    <div class="flex mb-4">
-      <h1>HRRN&nbsp;-&nbsp;</h1>
-      <a href="/non-prempt" class="text-blue-500 font-mono">/hrrrn</a>
-    </div>
-    <div class="flex mb-4">
-      <h1>Multi-level Queue&nbsp;-&nbsp;</h1>
-      <a href="/non-prempt" class="text-blue-500 font-mono">/multiq</a>
-    </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+        {#each cards as card}
+          <div 
+          aria-roledescription="card"
+            class="group relative bg-gray-800 rounded-lg shadow-lg cursor-pointer overflow-hidden"
+            on:click={() => handleCardClick(card.id)}>
+            
+            <!-- Background Image -->
+            <div 
+              class="absolute inset-0 bg-cover bg-center transition-all duration-300 group-hover:opacity-75"
+              style="background-image: url('https://flowbite.com/docs/images/blog/image-1.jpg');">
+            </div>
+            
+            <!-- Card Content -->
+            <div class="relative p-6 space-y-4 z-10">
+              <h2 class="text-4xl font-semibold text-white">{card.title}</h2>
+              <p class="text-gray-300 text-xl">{card.description}</p>
+            </div>
+          </div>
+        {/each}
+      </div>
+      
   </main>
+  

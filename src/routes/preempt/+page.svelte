@@ -375,7 +375,7 @@
                     <option value="system">System</option>
                     <option value="interactive">Interactive</option>
                     <option value="batch">Batch</option>
-                  </select>
+                  </select> 
                 </td>
                 <td class="border p-2">
                   <button 
