@@ -23,7 +23,7 @@ npm run dev -- --open
 
 ## Building
 
-To create a production version of your app:
+To create a production version of your application:
 
 ```bash
 npm run build
